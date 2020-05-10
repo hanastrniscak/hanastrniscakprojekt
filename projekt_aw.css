@@ -2,7 +2,7 @@ body
 { background-color: khaki;}
 
 html{border-style: double;
-    border-color: orangered;}
+    border-color: black;}
     html {
         margin-top: 50px;
         margin-bottom: 50px;
@@ -32,6 +32,7 @@ padding-top:3px ;
 padding-right:3px ;
 padding-bottom:3px ;
 width: 100%;
+border-color: black;
 }
 img {
   border-radius: 8px;
@@ -41,6 +42,8 @@ img {
   text-align: left;
   font-family: fantasy;
   font-size: x-large;
+  text-decoration-line: underline;
+  text-decoration-style: double;
 }
 .lajk{
   color: rgb(199, 104, 8);
@@ -62,15 +65,15 @@ li {
           .riki{ text-align: left;
             color: chocolate;
           font-size: medium;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+        }
             .kiki{ text-align: left;
               color:black;
             font-size: large;
-          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+          }
           th {
             font-size: large;
-            background-color:white;
-            color:orange;
+            background-color:palegoldenrod;
+            color: rgb(83, 83, 42);
           }
           tr{
             background-color:peru;
@@ -94,8 +97,8 @@ li {
           }
           
           .vertical-menu a.active {
-            background-color: orange; /* Add a green color to the "active/current" link */
-            color:orangered;}
+            background-color: black; /* Add a green color to the "active/current" link */
+            color:white;}
 
 
     
@@ -104,7 +107,7 @@ li {
         margin: 5px;
         border: 1px solid peru;
         float: left;
-        width: 180px;
+        width: 120px;
       }
       
       div.gallery:hover {
@@ -161,7 +164,7 @@ li {
   outline: 0;
   display: inline-block;
   padding: 8px;
-  color: white;
+  color:white;
   background-color: #000;
   text-align: center;
   cursor: pointer;
@@ -184,8 +187,8 @@ form{
 
 a.vrh
 {
-    color:black;
-    background-color:orange;
+    color:white;
+    background-color:black;
     padding: 12px 15px;
     text-decoration: none;
     position: fixed;
