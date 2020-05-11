@@ -1,0 +1,5 @@
+<div class=slidershow middle">
+<div class=slides">
+<div class="slide">
+<img src="sanjic.jpg" alt="">
+</div>
